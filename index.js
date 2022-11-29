@@ -43,7 +43,7 @@ module.exports = async function(prompts) {
         ['src/assets/css/base.css', fs.readFileSync(resolve('files/business/assets/css/base.css'))],
         ['src/assets/css/index.scss', fs.readFileSync(resolve('files/business/assets/css/index.scss'))]
       ] : [
-        ['src/index.ejs', fs.readFileSync(resolve('files/business/index.ejs'))]
+        ['src/index.ejs', fs.readFileSync(resolve('files/business/index.ejs'))],
         ['src/assets/js/index.js', fs.readFileSync(resolve('files/business/assets/js/index.js'))],
         ['src/assets/css/base.css', fs.readFileSync(resolve('files/business/assets/css/base.css'))],
         ['src/assets/css/index.scss', fs.readFileSync(resolve('files/business/assets/css/index.scss'))]
