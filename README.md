@@ -6,15 +6,18 @@ This is a template configuration file that needs to be used with the [genrate](h
 
 ## Preset
 
-- Jest
 - Husky
 - Babel
-- Gulp (business)
-- Rollup (library)
 - ESLint
 - Prettier
 - CommitLint
-- TypeScript
+- Jest [library]
+- Rollup [library]
+- TypeScript [library]
+- Gulp [business]
+- Sass [business]
+- Postcss [business]
+- BrowserSync [business]
 
 ## Usage
 
